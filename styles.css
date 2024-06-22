@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+.navbar{
+
+border: none;
+background-color: black;
+color: powderblue;
+}
+body{
+	background-color: rgba(3, 133, 150, 0.808);
+	color: white;
+}
+.glyphicon{
+	font-size: 30px;
+	color:powderblue; 
+}
+
+.center{
+	width: 90%;
+	background-color: grey;
+    
+}
+.container
+{
+	background-color: grey;
+    row-gap: 200px; 
+}
+.text-center{
+	font-size: 30px;
+}
+
+.home-tiles{
+    background-color: grey;
+}
+
+h2{
+	text-align: center;
+}
+#myNavbar ul li a {
+	color: powderblue;
+}
+.navbar-brand{
+font-size: 30px;	
+}        
+
+@media (max-width: 767px) {
+    .container {
+        padding: 20px 10px;
+
+        margin: 0 30px; 
+    }
+}
